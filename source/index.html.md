@@ -134,13 +134,6 @@ api = Kittn::APIClient.authorize!('meowmeowmeow')
 api.kittens.get(2)
 ```
 
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get(2)
-```
-
 ```shell
 curl "http://example.com/api/kittens/2" \
   -H "Authorization: meowmeowmeow"
